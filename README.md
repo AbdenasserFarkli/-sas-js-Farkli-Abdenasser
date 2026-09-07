@@ -7,9 +7,9 @@
 
 | Information | À compléter |
 |---|---|
-| Nom et prénom | ... |
-| Classe | ... |
-| Nom d'utilisateur GitHub | ... |
+| Nom et prénom | Farkli Abdenasser... |
+| Classe | A |
+| Nom d'utilisateur GitHub | AbdenasserFarkli |
 
 ## 🧭 Comment travailler
 
