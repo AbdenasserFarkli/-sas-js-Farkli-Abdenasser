@@ -15,10 +15,22 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let test = 0
+let numbercheck=0
+let c1=0 , c2=0, c3=0
 for (let i = 100; i <= 999; i++) {
-    test= Math.floor(test/100)
-    for (let j = 0; j < 4; j++) {
-        
+    c1 = 0
+c2 = 0
+c3 = 0
+numbercheck = 0
+
+
+            c1+=(Math.floor(i/100))
+c2 = Math.floor((i % 100) / 10)
+          c3+= Math.floor(i%10)
+          numbercheck+=(c1**3)+(c2**3)+(c3**3)
+
+    if (numbercheck==i) {
+        console.log(i+ " nombres d'Armstrong");
         
     }
     
