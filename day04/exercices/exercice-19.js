@@ -14,4 +14,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function messageBysecond(message, second) {
+    setTimeout(() => {
+        "Just Do it ",5
+    }, (second*1000));
+}
+console.log(messageBysecond("Just Do it ",80));
