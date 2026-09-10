@@ -15,28 +15,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let i =0
-function fibonacci(n, i ) {
+function fibonacci(n ) {
 
+if (n<=1) {
+    
+    return n
+    
+}else
 
- let next =1
- let star=0
- let fb = 0
+    return (fibonacci(n-1)+fibonacci(n-2))
  
-    console.log(star);
-    
-    fb = star +next
-    star = next 
-    next= fb 
-    
-    if (i<n) {
-        fibonacci(n,i+1)
-        
-    }else
-        return fibonacci(n,i)
         
     
  
     
 }
-fibonacci(10,i)
+console.log(fibonacci(10));
