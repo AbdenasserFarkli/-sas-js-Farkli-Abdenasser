@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let text = "eeeEEE"
+let count  =0 
+for (let i = 0; i < text.length; i++) {
+    if (text[i]=="e"||text[i]=="E" ) {
+        count++
+    }
+    
+}
+console.log(count);

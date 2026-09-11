@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function verifier(plaque){
+    const redex = /^[^-]+-[A-Za-z]+-[^-]+$/
+    return redex.test(plaque)
+    
+}
+console.log(verifier("1A234-A-56"));
+console.log(verifier("1A234-A-"));
+

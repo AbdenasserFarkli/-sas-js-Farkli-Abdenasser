@@ -16,4 +16,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function replce(texte){
+    texte = texte.replace(/[.,!?;:'"()[\]{}\-]/g, "")
+        for(let i= 0 ; i <= texte.length; i++){
+        texte = texte.replace(" " , "-")
+        }
+    return texte
+}
+
+console.log(replce("Les 10? secrets de? JavaScript?!"))

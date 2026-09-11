@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let decalage = 0
+let text = 65
+for (let int = 0; int < array.length; int++) {
+    const element = array[int];
+    
+}
+
