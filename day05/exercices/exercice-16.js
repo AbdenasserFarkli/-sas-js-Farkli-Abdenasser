@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let text ="Beau temps à #Nador aujourd'hui avec la team #YouCode !"
+let box=""
+text = text.split(" ")
+for (let i = 0; i < text.length; i++) {
+     if (text[i].charAt(0)=="#") {
+        box+=text[i]
+        if (text.length-1>i+1) {
+        box+=" "
+        
+       }
+       }
+       
+    
+}
+box = box.split(" ")
+console.log(box);
