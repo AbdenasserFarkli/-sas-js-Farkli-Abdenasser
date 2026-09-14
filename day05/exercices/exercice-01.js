@@ -22,4 +22,9 @@ function NcharInString(string) {
     return box
     
 }
+
+
+
+
+
 console.log(NcharInString(mot));
