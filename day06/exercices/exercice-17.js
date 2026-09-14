@@ -15,12 +15,3 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-let tableau =["pomme", "banane", "pomme", "orange", "banane", "pomme"]
-const fruits = new Map()
-for(const element of tableau ){
-    fruits.set(element,(fruits.get(element)  || 0) +1)
-}
-let rusults =Object.entries(Object.fromEntries(fruits))
-console.log(rusults)
-
-rusults.splice
