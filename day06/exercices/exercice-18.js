@@ -14,4 +14,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let 
+let tableau =[[1, 2], [3, 4], [5, 6]]
+let count =0
+let tableaumix=[]
+for (let i = 0; i < tableau.length; i++) {
+    for (let j = 0; j < tableau[i].length; j++) {
+        tableaumix[count]=tableau[i][j]
+        count++
+
+
+        
+    }
+    
+}
+console.log(tableaumix);n 
