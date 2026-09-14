@@ -23,3 +23,4 @@ for(const element of tableau ){
 let rusults =Object.entries(Object.fromEntries(fruits))
 console.log(rusults)
 
+rusults.splice
